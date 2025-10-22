@@ -1,0 +1,14 @@
+name: BlazeDemo Workflows
+on: [push]
+jobs:
+  BlazeDemo_cypress_browser_chrome:
+  runs-on: windows-latest
+  steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+    - name: Install dependencies
+      uses: npm install
+    - name: Cypress.io
+      uses: cypress-io/github-action@v6
+      with:
+        - start: npm run cypress:run:chrome 
