@@ -1,0 +1,29 @@
+{
+  "name": "blazedemo_automate_updated_2",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/benjamin427/BlazeDemo_Automate_Updated_2#readme",
+  "bugs": {
+    "url": "https://github.com/benjamin427/BlazeDemo_Automate_Updated_2/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benjamin427/BlazeDemo_Automate_Updated_2.git"
+  },
+  "license": "ISC",
+  "author": "Benjamin Saint Elien",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "cypress:run:chrome": "cypress run --spec=cypress/features/* --e2e --browser chrome",
+    "cypress:open:chrome": "cypress open --e2e --browser chrome"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^23.2.1",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.6",
+    "chai": "^6.2.0",
+    "cypress": "^15.5.0",
+    "cypress-xpath": "^2.0.1",
+    "mocha": "^11.7.4"
+  }
+}
