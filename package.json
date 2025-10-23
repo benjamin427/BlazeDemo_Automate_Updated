@@ -23,7 +23,11 @@
     "@bahmutov/cypress-esbuild-preprocessor": "^2.2.6",
     "chai": "^6.2.0",
     "cypress": "^15.5.0",
-    "cypress-xpath": "^2.0.1",
-    "mocha": "^11.7.4"
+    "glob": "^11.0.3",
+    "mocha": "^11.7.4",
+    "xpath": "^0.0.34"
+  },
+  "devDependencies": {
+    "lru-cache": "^11.2.2"
   }
 }
