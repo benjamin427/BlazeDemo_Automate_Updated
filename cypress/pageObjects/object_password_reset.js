@@ -15,6 +15,5 @@ class BlazeDemo_ResetPassword {
         cy.contains("Login").should("have.text", "Login").click()
     }
 }
-
 const blazedemoResetPassword = new BlazeDemo_ResetPassword()
 module.exports = blazedemoResetPassword
