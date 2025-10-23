@@ -15,7 +15,8 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "cypress:run:chrome": "cypress run --spec=cypress/features/* --e2e --browser chrome",
+    "cypress:open:chrome": "cypress open --e2e --browser chrome"
   },
   "dependencies": {
     "@badeball/cypress-cucumber-preprocessor": "^23.2.1",
