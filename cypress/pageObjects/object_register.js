@@ -19,6 +19,5 @@ class BlazeDemo_Register{
         cy.contains("Login").should("have.text", "Login").click()
     }
 }
-
 const blazedemoRegister = new BlazeDemo_Register()
 module.exports = blazedemoRegister
