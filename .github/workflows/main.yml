@@ -1,7 +1,7 @@
 name: BlazeDemo CI CI Workflow Pipelines
 on: [push]
 jobs:
-  BlazeDemo_cypress_electron_test:
+  BlazeDemo_cypress_chrome_test:
     runs-on: windows-latest
     steps:
       - name: Checkout
